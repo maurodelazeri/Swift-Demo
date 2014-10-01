@@ -13,6 +13,8 @@
 		FA8D34FE19DBF603001E927B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8D34FD19DBF603001E927B /* Images.xcassets */; };
 		FA8D350119DBF603001E927B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8D34FF19DBF603001E927B /* LaunchScreen.xib */; };
 		FA8D350D19DBF603001E927B /* Swift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D350C19DBF603001E927B /* Swift_DemoTests.swift */; };
+		FA8D351719DBFFDA001E927B /* NeoKrNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D351619DBFFDA001E927B /* NeoKrNewsModel.swift */; };
+		FA8D351919DC0F80001E927B /* NeoKrNewsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D351819DC0F80001E927B /* NeoKrNewsParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FA8D350619DBF603001E927B /* Swift DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8D350B19DBF603001E927B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8D350C19DBF603001E927B /* Swift_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DemoTests.swift; sourceTree = "<group>"; };
+		FA8D351619DBFFDA001E927B /* NeoKrNewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoKrNewsModel.swift; sourceTree = "<group>"; };
+		FA8D351819DC0F80001E927B /* NeoKrNewsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoKrNewsParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				FA8D34F619DBF603001E927B /* AppDelegate.swift */,
 				FA8D34F819DBF603001E927B /* ViewController.swift */,
+				FA8D351619DBFFDA001E927B /* NeoKrNewsModel.swift */,
+				FA8D351819DC0F80001E927B /* NeoKrNewsParser.swift */,
 				FA8D34FA19DBF603001E927B /* Main.storyboard */,
 				FA8D34FD19DBF603001E927B /* Images.xcassets */,
 				FA8D34FF19DBF603001E927B /* LaunchScreen.xib */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8D351719DBFFDA001E927B /* NeoKrNewsModel.swift in Sources */,
+				FA8D351919DC0F80001E927B /* NeoKrNewsParser.swift in Sources */,
 				FA8D34F919DBF603001E927B /* ViewController.swift in Sources */,
 				FA8D34F719DBF603001E927B /* AppDelegate.swift in Sources */,
 			);
